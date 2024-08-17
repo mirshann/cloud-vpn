@@ -1,0 +1,4 @@
+- hosts: vpn_servers
+  become: yes
+  roles:
+    - vpn
